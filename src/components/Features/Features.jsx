@@ -26,15 +26,17 @@ const features = [
 
 const Features = () => {
   return (
-    <section>
-        <h2>Why Choose Us</h2>
-        <div>
+    <section className='bg-white py-14 px-5 lg:px-14 text-center'>
+        <h2 className='text-3xl font-bold mb-10 text-gray-800'>Why Choose Us</h2>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10'>
             {
                 features.map((feature , index) => 
-                <div key={index}>
-                    <div>{feature.icon}</div>
-                    <h3>{feature.title}</h3>
-                    <p>{feature.desc}</p>
+                <div key={index} className='bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300'>
+                    <div className='flex justify-center text-4xl text-green-600 mb-3'>{feature.icon}</div>
+
+                    <h3 className='text-xl font-semibold mb-2 text-gray-700'>{feature.title}</h3>
+
+                    <p className='text-gray-600 text-sm'>{feature.desc}</p>
                 </div>)
             }
         </div>

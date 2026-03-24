@@ -4,7 +4,7 @@ import ButtonPrimary from '../Buttons/ButtonPrimary';
 
 const Hero = () => {
     return (
-      <section className="min-h-[90vh] flex flex-col-reverse md:flex-row justify-center md:justify-between items-center px-5 lg:px-14 bg-linear-to-r from-[#D7E8DC] to-[#C4DBCE]">
+      <section className="min-h-[90vh] py-5 md:py-0 flex flex-col-reverse md:flex-row justify-center md:justify-between items-center px-5 lg:px-14 bg-linear-to-r from-[#D7E8DC] to-[#C4DBCE]">
         {/* content section  */}
         <div className="text-center md:text-start mt-12 md:mt-0 space-y-5 max-w-xl">
           <h3 className="text-sm md:text-lg text-gray-700">
