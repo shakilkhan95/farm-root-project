@@ -46,7 +46,7 @@ const Header = () => {
         </div>
       </nav>
 
-      <ButtonPrimary btnValue='Shop Now' display='md:hidden'/>
+      <ButtonPrimary btnValue='Shop Now' className='md:hidden'/>
     </header>
   );
 };

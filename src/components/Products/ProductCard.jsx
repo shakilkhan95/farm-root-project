@@ -30,7 +30,7 @@ const ProductCard = ({ product }) => {
       {status === "soldout" ? (
         <p className="text-red-600 font-semibold mt-5 text-center">Sold Out</p>
       ) : (
-        <ButtonPrimary btnValue="Shop Now" width='w-full' margin='mt-4'/>
+        <ButtonPrimary btnValue="Shop Now" className="w-full mt-4"/>
       )}
     </div>
   );

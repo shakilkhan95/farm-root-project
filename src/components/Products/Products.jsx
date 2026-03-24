@@ -16,7 +16,7 @@ const Products = () => {
     
   return (
     <section className='bg-gray-50 pb-10 px-5 lg:px-14'>
-      <h2 className='text-4xl font-bold text-center text-gray-800 mb-10'>Our Products</h2>
+      <h2 className='text-4xl font-bold text-center text-gray-800 mb-10 pt-5'>Our Products</h2>
 
       <div className='flex flex-wrap justify-center mb-6 space-x-4 text-sm font-medium text-green-600'>
         {categories.map((category) => (
