@@ -25,7 +25,7 @@ const Products = () => {
             onClick={() => {
               setSelectedCategory(category);
             }}
-            className={`pb-1 border-b-2 ${selectedCategory === category ? 'border-green-600' : 'border-transparent'} hover:border-green-400 transition duration-300`}
+            className={`mt-1.5 pb-1 border-b-2 ${selectedCategory === category ? 'border-green-600' : 'border-transparent'} hover:border-green-400 transition duration-300`}
           >
             {category}
           </button>
