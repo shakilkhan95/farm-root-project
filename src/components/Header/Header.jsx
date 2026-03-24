@@ -1,6 +1,7 @@
 import React from "react";
 import { FiSearch, FiShoppingCart } from "react-icons/fi";
 import { IoIosContact } from "react-icons/io";
+import ButtonPrimary from "../Buttons/ButtonPrimary";
 
 const Header = () => {
   return (
@@ -45,9 +46,7 @@ const Header = () => {
         </div>
       </nav>
 
-      <button className="md:hidden bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-full shadow-lg transition duration-300 cursor-pointer">
-        Shop Now
-      </button>
+      <ButtonPrimary btnValue='Shop Now' display='md:hidden'/>
     </header>
   );
 };
