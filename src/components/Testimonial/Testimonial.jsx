@@ -9,22 +9,22 @@ const testimonials = [
   {
     name: "Oliver Bennett",
     comment: "The veggies were so fresh and packed beautifully. Love it!",
-    img: "src/assets/img/review1.jpg",
+    img: "../../assets/img/review1.jpg",
   },
   {
     name: "Amelia Brooks",
     comment: "Quick delivery & top-notch quality. Highly recommend!",
-    img: "src/assets/img/review2.jpg",
+    img: "../../assets/img/review2.jpg",
   },
   {
     name: "Charlotte Harris",
     comment: "Finally, a brand I can trust for real organic produce.",
-    img: "src/assets/img/review3.jpg",
+    img: "../../assets/img/review3.jpg",
   },
   {
     name: "James Walker",
     comment: "Organic, fresh, and affordable. My family loves it!",
-    img: "src/assets/img/review4.jpg",
+    img: "../../assets/img/review4.jpg",
   },
 ];
 
