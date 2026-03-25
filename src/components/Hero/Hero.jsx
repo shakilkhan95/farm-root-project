@@ -24,7 +24,7 @@ const Hero = () => {
         {/* img section  */}
         <div className="w-4/5 md:w-2/5">
           <img
-            className="rounded-full shadow-[0_10px_40px_rgba(0,0,0,0.2)] border-white"
+            className="rounded-full shadow-[0_10px_40px_rgba(0,0,0,0.2)] border-2 border-white"
             src={heroImg}
             alt="Hero Image"
           />
