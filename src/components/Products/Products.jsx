@@ -9,6 +9,8 @@ const categories = [
   "DRIED FOODS & NUTS",
 ];
 
+console.log(productData[0].image)
+
 const Products = () => {
     const [selectedCategory, setSelectedCategory] = useState("FOOD & DRINKS");
 
